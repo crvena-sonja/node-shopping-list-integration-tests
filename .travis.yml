@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: XwC/osgnW5e096MFDWH/cliIXgskEH9yi+fXOwnyLWG7MPM2eWU57peSxnZ8QVbc2QRlRgQW2v/ChyJcqYdt0pW0exFYRJ+5QjWtCgrWYH5nGwyCRi+8LGRtDrQlEtOeQNePJ/TvKrMoH+ghTG97e1L4qRUXc7dnWtQ7I26kYLUihzhaaJh/tInhXA2LUcX4vFD2cLXO+ixljWpUIdpKqnfva9ih+XEBKDSKIu7lzFmfAR/cVmXxSruM1SJ/kN1/UTNZst5T2KUEIv0c2lMqhmWJADbWcU0CGgQbkBc4mx/tzPMoRau6pA6cpiCV4KgJZG3ApvN74wj7gLccMmdC2mvcr+k2dCs1ALizW+g8BwOpuA2aq0Xe/iAA0J/XEhQSQdR9e9bDhClQQuyg1o7/IxkoAzWWkzMknUdojL0F9zkiqSicAH+XSTLaVYCCJ1qm/uTzAmRPeJnwN1g/g+MZ8bCGFnGk5BBhkC9eM8xHm/qQU+wHmpQx/mnG4DW2VrJtVF2TdQvP98Ntpt+UOw6VyY3bzGcraGw/OZ5giLQPZuU8qc/CBe5NzKumaDS6eYWB5i/XdcQ2/BlHdB4+fMyRwCSjHArzZu1Vml5UDJpnrTTvmkRwEdUYXWOTHsQblTFqrAq6C5oztCB3pio9pfuTYjAgJM4WWs3xYIkwRGINh+U=
+  app: node-shopping-list-int-tests
+  on:
+    repo: crvena-sonja/node-shopping-list-integration-tests
